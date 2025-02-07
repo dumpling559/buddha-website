@@ -1,0 +1,77 @@
+/* General Styles */
+body {
+    font-family: 'Georgia', serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-image: url('buddha-background.jpg'); /* Add your Buddha image here */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+  }
+  
+  /* Background Overlay */
+  .background-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+  
+  /* Header */
+  header {
+    background: rgba(139, 69, 19, 0.8); /* Semi-transparent brown */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Navigation */
+  nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    background: rgba(51, 51, 51, 0.8); /* Semi-transparent dark gray */
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Sections */
+  section {
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  section h2 {
+    color: #8B4513; /* Brown */
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 10px;
+    background: rgba(51, 51, 51, 0.8); /* Semi-transparent dark gray */
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
